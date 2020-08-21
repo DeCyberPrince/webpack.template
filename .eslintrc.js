@@ -14,7 +14,7 @@ module.exports = {
     'import/resolver': 'webpack'
   },
   rules: {
-    'no-console': mode.prod ? 'warn' : 'off',
-    'no-debugger': mode.prod ? 'warn' : 'off'
+    'no-console': mode.prod ? 'error' : 'off',
+    'no-debugger': mode.prod ? 'error' : 'off'
   }
 }
